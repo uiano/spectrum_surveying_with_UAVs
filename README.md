@@ -6,15 +6,17 @@ The Python code in this repository implements the simulations and plots the figu
 Python 3.6 or later. 
 Use the package manager pip to install the following packages:
 ```
-tensorflow
-scipy
-cvxpy
-cvxopt
-matplotlib
-pandas
-joblib
-sklearn
-opencv-python
+tensorflow 2.4.0
+tensorflow-probability 0.12.1 
+scipy  1.5.2
+cvxpy 1.1.7
+matplotlib 3.3.2
+pandas 1.2.0 
+joblib 1.0.1 
+sklearn 0.23.2
+opencv-python 4.5.1.48
+dill 0.3.3
+seaborn 0.11.1 
 ```
 
 
