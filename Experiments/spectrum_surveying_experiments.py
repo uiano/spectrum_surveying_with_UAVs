@@ -5,7 +5,7 @@ from map_generators.map_generator import RectangularGrid
 from map_generators.correlated_shadowing_generator import CorrelatedShadowingGenerator
 from measurement_generation.sampler import InterpolationSampler
 from measurement_generation.measurement_dataset import MeasurementDataset, \
-    GridMeasurementDataset, GridMeasurementPosteriorDataset
+    GridMeasurementDataset
 from map_estimators.kriging_estimator import BatchKrigingEstimator, OnlineKrigingEstimator
 from map_estimators.interpolation_estimators import KNNEstimator, \
     KernelRidgeRegressionEstimator, MultikernelEstimator
