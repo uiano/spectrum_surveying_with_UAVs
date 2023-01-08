@@ -331,7 +331,7 @@ class ExperimentSet(gsim.AbstractExperimentSet):
             md = GridMeasurementDataset.generate(
                 grid=grid,
                 map_generator=map_generator,
-                # sampler=sampler,
+                sampler=sampler,
                 num_measurements_per_map=num_measurements_per_map,
                 num_maps_train=num_maps_train,
                 num_maps_test=num_maps_test,
